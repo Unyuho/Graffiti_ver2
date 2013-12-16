@@ -313,7 +313,7 @@ public class GraffitiBlockRenderer extends TileEntitySpecialRenderer
 
         tessellator.addVertexWithUV(minXleft, 0.0D, minZleft, minU, maxV);
         tessellator.addVertexWithUV(minXright, 0.0D, minZright, maxU, maxV);
-        tessellator.addVertexWithUV(maxXright, 0.0D, maxZleft, maxU, minV);
+        tessellator.addVertexWithUV(maxXright, 0.0D, maxZright, maxU, minV);
         tessellator.addVertexWithUV(maxXleft, 0.0D, maxZleft, minU, maxV);
     }
 
