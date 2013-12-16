@@ -65,7 +65,6 @@ public class GraffitiBlockRenderer extends TileEntitySpecialRenderer
     }
 
 
-
     private boolean render(World world, GraffitiBlock block, int posX, int posY, int posZ)
     {
         Tessellator tessellator = Tessellator.instance;
